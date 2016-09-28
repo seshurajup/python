@@ -31,7 +31,31 @@ secondList = ["thirdValue","fourthValue"]
 thirdList = firstList + secondList
 print(thirdList) # merge multiple lists
 print( len(thirdList) ) # total number of elements in list
-thirdList.append("fivthValue")
+thirdList.append("fifthValue")
 print(thirdList) # added extra value 
 print( thirdList.count("fourthValue")) # count no of times fourvalue repated in listVariable
 #del append len count max min 
+
+## directory operatiosn ##
+directoryVariable = {"oneIndex":"oneValue", "twoIndex":"twoValue", "threeIndex":"threeValue"}
+print("twoIndex Value : %s" %(directoryVariable["twoIndex"]))
+del directoryVariable["twoIndex"] # delete twoIndex value from directoryVariable
+print(directoryVariable)
+print(directoryVariable.keys()) # all keyes in randome order ** Notebook
+print(directoryVariable.values()) # all values in directoryVariable
+directoryVariable2 = {"fourthIndex":"fourthValue", "fifthIndex":"fifthValue"}
+directoryVariable.update(directoryVariable2) # merge 2 directory with update
+print(directoryVariable)
+directoryVariable.clear() # clear all values from directoryVariable
+print(directoryVariable)
+# del update clear keyes values
+
+
+## tuples operations ##
+tupleValue = ("oneValue","twoValue","threeValue")
+print(tupleValue)
+tupleValue = ("fourthValue","fifthValue","sixthValue")
+print(tupleValue)
+print(tupleValue[1]) # slice function
+print(tupleValue[1:2]) # silent from 1 to 2 values from starting 
+del tupleValue # delete complete variable - release memory by deleting it.

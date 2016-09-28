@@ -11,4 +11,8 @@ listVariable = ["oneValue","twoValue","thirdValue"];
 print(listVariable)
 
 ## dictionary ##
+directoryVariable = {"oneIndex":"oneValue", "twoIndex":"twoValue", "threeIndex":"threeValue"}
+print(directoryVariable["oneIndex"])
 
+## tuple ~ constants ~ enum ##
+tupleVariable = ("oneValue","twoValue","threeValue")
