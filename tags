@@ -1,0 +1,305 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+01-basics.py	lynda/03-numpy/01-basics.py	1;"	kind:file	line:1
+01-helloworld.py	tensorflow/01-basics/01-helloworld.py	1;"	kind:file	line:1
+01-helloworld.py	udemy/basics/01-helloworld.py	1;"	kind:file	line:1
+01-import.py	lynda/01-intermediate/01-import.py	1;"	kind:file	line:1
+01-linear-regresion-one-variable-without-bais.py	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	1;"	kind:file	line:1
+01-linear-regresion.py	tensorflow/04-regression/01-linear-regresion.py	1;"	kind:file	line:1
+01-linearregression.py	youtube/01-regression/01-linearregression.py	1;"	kind:file	line:1
+01-minst.py	tensorflow/02-mnist/01-minst.py	1;"	kind:file	line:1
+01-regression.py	tflearn/01-regression.py	1;"	kind:file	line:1
+02-list.py	lynda/01-intermediate/02-list.py	1;"	kind:file	line:1
+02-operations.py	lynda/03-numpy/02-operations.py	1;"	kind:file	line:1
+02-polynomial-regression.py	tensorflow/04-regression/02-polynomial-regression.py	1;"	kind:file	line:1
+02-variables.py	udemy/basics/02-variables.py	1;"	kind:file	line:1
+03-datatypes.py	udemy/basics/03-datatypes.py	1;"	kind:file	line:1
+03-dictionary.py	lynda/01-intermediate/03-dictionary.py	1;"	kind:file	line:1
+03-polynomial-hmm.py	tensorflow/04-regression/03-polynomial-hmm.py	1;"	kind:file	line:1
+04-comprehensions.py	lynda/01-intermediate/04-comprehensions.py	1;"	kind:file	line:1
+04-operators.py	udemy/basics/04-operators.py	1;"	kind:file	line:1
+05-conditional.py	udemy/basics/05-conditional.py	1;"	kind:file	line:1
+06-loops.py	udemy/basics/06-loops.py	1;"	kind:file	line:1
+07-exception.py	udemy/basics/07-exception.py	1;"	kind:file	line:1
+08-function.py	udemy/basics/08-function.py	1;"	kind:file	line:1
+ConfigParser	youtube/01-regression/01-linearregression.py	/^import ConfigParser$/;"	kind:namespace	line:1
+IPythoni	lynda/01-intermediate/01-import.py	/^import IPythoni$/;"	kind:namespace	line:7
+LinearRegression	youtube/01-regression/01-linearregression.py	/^from sklearn.linear_model import LinearRegression$/;"	kind:namespace	line:8
+TSNE	tensorflow/03-word2vec/word2vec.py	/^  from sklearn.manifold import TSNE$/;"	kind:namespace	line:236
+W	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^W = tf.Variable(np.random.randn(),name="weight")$/;"	kind:variable	line:24
+W	tensorflow/04-regression/01-linear-regresion.py	/^W = tf.Variable(rng.randn(), name="weight")$/;"	kind:variable	line:32
+W	tensorflow/04-regression/02-polynomial-regression.py	/^    W = tf.Variable(tf.random_normal([1]), name='weight_%d' % pow_i)$/;"	kind:variable	line:29
+W1	tensorflow/04-regression/03-polynomial-hmm.py	/^W1 = tf.Variable(rng.randn(), name="weight")$/;"	kind:variable	line:31
+W2	tensorflow/04-regression/03-polynomial-hmm.py	/^W2 = tf.Variable(rng.randn(), name="weight")$/;"	kind:variable	line:33
+W3	tensorflow/04-regression/03-polynomial-hmm.py	/^W3 = tf.Variable(rng.randn(), name="weight")$/;"	kind:variable	line:35
+X	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^X = tf.placeholder("float")$/;"	kind:variable	line:20
+X	tensorflow/04-regression/01-linear-regresion.py	/^X = tf.placeholder("float")$/;"	kind:variable	line:28
+X	tensorflow/04-regression/02-polynomial-regression.py	/^X = tf.placeholder(tf.float32)$/;"	kind:variable	line:21
+X	tensorflow/04-regression/03-polynomial-hmm.py	/^X = tf.placeholder("float")$/;"	kind:variable	line:27
+X	tflearn/01-regression.py	/^X = [3.3,4.4,5.5,6.71,6.93,4.168,9.779,6.182,7.59,2.167,7.042,10.791,5.313,7.997,5.654,9.27,3.1]$/;"	kind:variable	line:8
+Y	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^Y = tf.placeholder("float")$/;"	kind:variable	line:21
+Y	tensorflow/04-regression/01-linear-regresion.py	/^Y = tf.placeholder("float")$/;"	kind:variable	line:29
+Y	tensorflow/04-regression/02-polynomial-regression.py	/^Y = tf.placeholder(tf.float32)$/;"	kind:variable	line:22
+Y	tensorflow/04-regression/03-polynomial-hmm.py	/^Y = tf.placeholder("float")$/;"	kind:variable	line:28
+Y	tflearn/01-regression.py	/^Y = [1.7,2.76,2.09,3.19,1.694,1.573,3.366,2.596,2.53,1.221,2.827,3.465,1.65,2.904,2.42,2.94,1.3]$/;"	kind:variable	line:9
+Y1	tensorflow/04-regression/03-polynomial-hmm.py	/^Y1 = tf.add(tf.mul(X, W1), b1)$/;"	kind:variable	line:39
+Y2	tensorflow/04-regression/03-polynomial-hmm.py	/^Y2 = tf.add(tf.mul(Y1, W2), b2)$/;"	kind:variable	line:40
+Y_pred	tensorflow/04-regression/02-polynomial-regression.py	/^    Y_pred = tf.add(tf.mul(tf.pow(X, pow_i), W), Y_pred)$/;"	kind:variable	line:30
+Y_pred	tensorflow/04-regression/02-polynomial-regression.py	/^Y_pred = tf.Variable(tf.random_normal([1]), name='bias')$/;"	kind:variable	line:27
+absolute_import	tensorflow/03-word2vec/word2vec.py	/^from __future__ import absolute_import$/;"	kind:namespace	line:16
+absolute_import	tflearn/01-regression.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:3
+accuracy	youtube/01-regression/01-linearregression.py	/^accuracy = linearRegressionModel.score(featureTest, labelTest) * 100.0$/;"	kind:variable	line:58
+accuracy	youtube/01-regression/01-linearregression.py	/^accuracy = svnModel.score(featureTest, labelTest) * 100.0$/;"	kind:variable	line:65
+accuracy	youtube/01-regression/01-linearregression.py	/^accuracy = svnModel.score(featureTest, labelTest) * 100.0$/;"	kind:variable	line:72
+anagramWords	lynda/02-textanalysis/anagrams.py	/^anagramWords = collections.defaultdict(list)$/;"	kind:variable	line:25
+anagramWords	lynda/02-textanalysis/anagrams.py	/^anagramWords = {''.join(sorted(key)):key for key in uniqWords}$/;"	kind:variable	line:19
+anagrams.py	lynda/02-textanalysis/anagrams.py	1;"	kind:file	line:1
+arrayVariable	udemy/basics/06-loops.py	/^arrayVariable = ["oneValue","twoValue","threeValue"]$/;"	kind:variable	line:5
+average_loss	tensorflow/03-word2vec/word2vec.py	/^      average_loss = 0$/;"	kind:variable	line:202
+average_loss	tensorflow/03-word2vec/word2vec.py	/^  average_loss = 0$/;"	kind:variable	line:186
+b	tensorflow/04-regression/01-linear-regresion.py	/^b = tf.Variable(rng.randn(), name="bias")$/;"	kind:variable	line:33
+b1	tensorflow/04-regression/03-polynomial-hmm.py	/^b1 = tf.Variable(rng.randn(), name="bias")$/;"	kind:variable	line:32
+b2	tensorflow/04-regression/03-polynomial-hmm.py	/^b2 = tf.Variable(rng.randn(), name="bias")$/;"	kind:variable	line:34
+b3	tensorflow/04-regression/03-polynomial-hmm.py	/^b3 = tf.Variable(rng.randn(), name="bias")$/;"	kind:variable	line:36
+batch_size	tensorflow/03-word2vec/word2vec.py	/^batch_size = 128$/;"	kind:variable	line:122
+build_dataset	tensorflow/03-word2vec/word2vec.py	/^def build_dataset(words):$/;"	kind:function	line:63
+builtin	tensorflow/03-word2vec/word2vec.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	kind:namespace	line:28
+c	tensorflow/04-regression/01-linear-regresion.py	/^            c = sess.run(cost, feed_dict={X: train_X, Y:train_Y})$/;"	kind:variable	line:57
+c	tensorflow/04-regression/03-polynomial-hmm.py	/^            c = sess.run(cost, feed_dict={X: train_X, Y:train_Y})$/;"	kind:variable	line:62
+close_word	tensorflow/03-word2vec/word2vec.py	/^          close_word = reverse_dictionary[nearest[k]]$/;"	kind:variable	line:213
+collections	lynda/02-textanalysis/anagrams.py	/^import collections$/;"	kind:namespace	line:24
+collections	tensorflow/03-word2vec/word2vec.py	/^import collections$/;"	kind:namespace	line:20
+config	youtube/01-regression/01-linearregression.py	/^config = ConfigParser.ConfigParser()$/;"	kind:variable	line:10
+constant	tensorflow/01-basics/01-helloworld.py	/^constant = tf.constant("Hellow World");$/;"	kind:variable	line:4
+convertedWords	lynda/02-textanalysis/anagrams.py	/^convertedWords = [key.strip().lower() for key in words];$/;"	kind:variable	line:5
+cost	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^cost = tf.reduce_sum(tf.pow(pred-Y, 2))\/(2*training_sample_count)$/;"	kind:variable	line:30
+cost	tensorflow/04-regression/01-linear-regresion.py	/^cost = tf.reduce_sum(tf.pow(pred-Y, 2))\/(2*n_samples)$/;"	kind:variable	line:39
+cost	tensorflow/04-regression/02-polynomial-regression.py	/^cost = tf.reduce_sum(tf.pow(Y_pred - Y, 2)) \/ (n_observations - 1)$/;"	kind:variable	line:34
+cost	tensorflow/04-regression/03-polynomial-hmm.py	/^cost = tf.reduce_sum(tf.pow(pred-Y, 2))\/(2*n_samples)$/;"	kind:variable	line:44
+cost_Y	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^cost_Y = np.ndarray((total_epoch,),float)$/;"	kind:variable	line:38
+cosx	lynda/03-numpy/02-operations.py	/^cosx = np.cos(x)$/;"	kind:variable	line:6
+cross_validation	youtube/01-regression/01-linearregression.py	/^from sklearn import preprocessing, cross_validation, svm$/;"	kind:namespace	line:7
+data_index	tensorflow/03-word2vec/word2vec.py	/^data_index = 0$/;"	kind:variable	line:87
+daysToPredict	youtube/01-regression/01-linearregression.py	/^daysToPredict = int(math.ceil(0.01 * len(googleStock)))$/;"	kind:variable	line:32
+dictionaryEvenSquares	lynda/01-intermediate/04-comprehensions.py	/^dictionaryEvenSquares = {key:key**2 for key in range(1,10) if key % 2 == 0}$/;"	kind:variable	line:10
+dictionaryVariable	lynda/01-intermediate/03-dictionary.py	/^dictionaryVariable = {"a":1,"b":2,"c":3}$/;"	kind:variable	line:2
+directoryVariable	udemy/basics/03-datatypes.py	/^directoryVariable = {"oneIndex":"oneValue", "twoIndex":"twoValue", "threeIndex":"threeValue"}$/;"	kind:variable	line:14
+directoryVariable	udemy/basics/04-operators.py	/^directoryVariable = {"oneIndex":"oneValue", "twoIndex":"twoValue", "threeIndex":"threeValue"}$/;"	kind:variable	line:40
+directoryVariable2	udemy/basics/04-operators.py	/^directoryVariable2 = {"fourthIndex":"fourthValue", "fifthIndex":"fifthValue"}$/;"	kind:variable	line:46
+disable	tensorflow/03-word2vec/word2vec.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	kind:namespace	line:28
+display_step	tensorflow/04-regression/01-linear-regresion.py	/^display_step = 50$/;"	kind:variable	line:17
+display_step	tensorflow/04-regression/03-polynomial-hmm.py	/^display_step = 50$/;"	kind:variable	line:17
+division	tensorflow/03-word2vec/word2vec.py	/^from __future__ import division$/;"	kind:namespace	line:17
+division	tflearn/01-regression.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:3
+embed	tensorflow/03-word2vec/word2vec.py	/^    embed = tf.nn.embedding_lookup(embeddings, train_inputs)$/;"	kind:variable	line:149
+embedding_size	tensorflow/03-word2vec/word2vec.py	/^embedding_size = 128  # Dimension of the embedding vector.$/;"	kind:variable	line:123
+embeddings	tensorflow/03-word2vec/word2vec.py	/^    embeddings = tf.Variable($/;"	kind:variable	line:147
+extededDictionaryVariable	lynda/01-intermediate/03-dictionary.py	/^extededDictionaryVariable = {"d":4,"e":5,"a":6}$/;"	kind:variable	line:21
+featurePredict	youtube/01-regression/01-linearregression.py	/^featurePredict = features[-daysToPredict:]$/;"	kind:variable	line:41
+features	youtube/01-regression/01-linearregression.py	/^features = features[:-daysToPredict]$/;"	kind:variable	line:42
+features	youtube/01-regression/01-linearregression.py	/^features = numpy.array(googleStock.drop(['label'], 1))$/;"	kind:variable	line:38
+features	youtube/01-regression/01-linearregression.py	/^features = preprocessing.scale(features)$/;"	kind:variable	line:40
+feed_dict	tensorflow/03-word2vec/word2vec.py	/^    feed_dict = {train_inputs : batch_inputs, train_labels : batch_labels}$/;"	kind:variable	line:190
+feed_dict	tensorflow/04-regression/01-linear-regresion.py	/^        feed_dict={X: test_X, Y: test_Y})  # same function as cost above$/;"	kind:variable	line:78
+filename	tensorflow/03-word2vec/word2vec.py	/^filename = maybe_download('text8.zip', 31344016)$/;"	kind:variable	line:47
+final_embeddings	tensorflow/03-word2vec/word2vec.py	/^  final_embeddings = normalized_embeddings.eval()$/;"	kind:variable	line:216
+firstArray	lynda/03-numpy/01-basics.py	/^firstArray = np.random.standard_normal((3,2))$/;"	kind:variable	line:27
+firstList	udemy/basics/04-operators.py	/^firstList = ["oneValue","twoValue"]$/;"	kind:variable	line:29
+firstVariable	tensorflow/01-basics/01-helloworld.py	/^firstVariable = tf.constant(3)$/;"	kind:variable	line:8
+firstVariable	udemy/basics/04-operators.py	/^firstVariable = "firstValue"$/;"	kind:variable	line:12
+firstVariable	udemy/basics/04-operators.py	/^firstVariable = 20$/;"	kind:variable	line:2
+forecastColumn	youtube/01-regression/01-linearregression.py	/^forecastColumn = "Adj. Close"$/;"	kind:variable	line:33
+functionName	udemy/basics/08-function.py	/^def functionName(argumentVariable) :$/;"	kind:function	line:2
+generate_batch	tensorflow/03-word2vec/word2vec.py	/^def generate_batch(batch_size, num_skips, skip_window):$/;"	kind:function	line:91
+globalVariable	udemy/basics/08-function.py	/^globalVariable = 10$/;"	kind:variable	line:1
+googleStock	youtube/01-regression/01-linearregression.py	/^googleStock = googleStock[['Adj. Close', 'HL_PCT', 'PCT_change', 'Adj. Volume']]$/;"	kind:variable	line:25
+googleStock	youtube/01-regression/01-linearregression.py	/^googleStock = googleStock[['Adj. Open', 'Adj. High', 'Adj. Low', 'Adj. Close', 'Adj. Volume']]$/;"	kind:variable	line:20
+googleStock	youtube/01-regression/01-linearregression.py	/^googleStock = quandl.get("WIKI\/GOOGL")$/;"	kind:variable	line:15
+graph	tensorflow/03-word2vec/word2vec.py	/^graph = tf.Graph()$/;"	kind:variable	line:135
+indexVariable	udemy/basics/06-loops.py	/^    indexVariable = indexVariable + 1;$/;"	kind:variable	line:17
+indexVariable	udemy/basics/06-loops.py	/^indexVariable = 0;$/;"	kind:variable	line:20
+indexVariable	udemy/basics/06-loops.py	/^indexVariable = 1;$/;"	kind:variable	line:14
+init	tensorflow/03-word2vec/word2vec.py	/^  init = tf.initialize_all_variables()$/;"	kind:variable	line:176
+init	tensorflow/04-regression/01-linear-regresion.py	/^init = tf.initialize_all_variables()$/;"	kind:variable	line:44
+init	tensorflow/04-regression/03-polynomial-hmm.py	/^init = tf.initialize_all_variables()$/;"	kind:variable	line:49
+init_variables	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^init_variables = tf.initialize_all_variables()$/;"	kind:variable	line:36
+input_	tflearn/01-regression.py	/^input_ = tflearn.input_data(shape=[None])$/;"	kind:variable	line:12
+input_data	tensorflow/02-mnist/01-minst.py	/^from tensorflow.examples.tutorials.mnist import input_data$/;"	kind:namespace	line:3
+labels	tensorflow/03-word2vec/word2vec.py	/^  labels = [reverse_dictionary[i] for i in xrange(plot_only)]$/;"	kind:variable	line:242
+labels	youtube/01-regression/01-linearregression.py	/^labels = numpy.array(googleStock['label'])$/;"	kind:variable	line:46
+learning_rate	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^learning_rate = 0.01$/;"	kind:variable	line:10
+learning_rate	tensorflow/04-regression/01-linear-regresion.py	/^learning_rate = 0.01$/;"	kind:variable	line:15
+learning_rate	tensorflow/04-regression/02-polynomial-regression.py	/^learning_rate = 0.01$/;"	kind:variable	line:44
+learning_rate	tensorflow/04-regression/03-polynomial-hmm.py	/^learning_rate = 0.01$/;"	kind:variable	line:15
+linear	tflearn/01-regression.py	/^linear = tflearn.single_unit(input_)$/;"	kind:variable	line:13
+linearRegressionModel	youtube/01-regression/01-linearregression.py	/^linearRegressionModel = LinearRegression(n_jobs=-1)$/;"	kind:variable	line:56
+list5Values	lynda/01-intermediate/04-comprehensions.py	/^list5Values = [value*5 for value in listValues]$/;"	kind:variable	line:15
+listEvenSquares	lynda/01-intermediate/04-comprehensions.py	/^listEvenSquares = [value**2 for value in range(1,10) if value % 2 == 0]$/;"	kind:variable	line:6
+listSquares	lynda/01-intermediate/04-comprehensions.py	/^listSquares = [value**2 for value in range(1,10)]$/;"	kind:variable	line:2
+listValues	lynda/01-intermediate/04-comprehensions.py	/^listValues = range(1,10)$/;"	kind:variable	line:14
+listVariable	lynda/01-intermediate/02-list.py	/^listVariable = listVariable + range(21,40)$/;"	kind:variable	line:6
+listVariable	lynda/01-intermediate/02-list.py	/^listVariable = range(1,20)$/;"	kind:variable	line:1
+listVariable	udemy/basics/03-datatypes.py	/^listVariable = ["oneValue","twoValue","thirdValue"];$/;"	kind:variable	line:10
+listVariable	udemy/basics/04-operators.py	/^listVariable = ["oneValue","twoValue","thirdValue"];$/;"	kind:variable	line:20
+loadArray	lynda/03-numpy/01-basics.py	/^loadArray = np.load("mergeArray.npy")$/;"	kind:variable	line:37
+log_str	tensorflow/03-word2vec/word2vec.py	/^          log_str = "%s %s," % (log_str, close_word)$/;"	kind:variable	line:214
+log_str	tensorflow/03-word2vec/word2vec.py	/^        log_str = "Nearest to %s:" % valid_word$/;"	kind:variable	line:211
+loss	tensorflow/03-word2vec/word2vec.py	/^  loss = tf.reduce_mean($/;"	kind:variable	line:160
+low_dim_embs	tensorflow/03-word2vec/word2vec.py	/^  low_dim_embs = tsne.fit_transform(final_embeddings[:plot_only,:])$/;"	kind:variable	line:241
+m	tflearn/01-regression.py	/^m = tflearn.DNN(regression)$/;"	kind:variable	line:16
+math	tensorflow/03-word2vec/word2vec.py	/^import math$/;"	kind:namespace	line:21
+math	youtube/01-regression/01-linearregression.py	/^import math as math$/;"	kind:namespace	line:4
+matplotlib	lynda/01-intermediate/01-import.py	/^import matplotlib$/;"	kind:namespace	line:5
+matplotlib	lynda/03-numpy/01-basics.py	/^import matplotlib.pyplot as mpl$/;"	kind:namespace	line:2
+matplotlib	lynda/03-numpy/02-operations.py	/^import matplotlib.pyplot as pp$/;"	kind:namespace	line:2
+matplotlib	tensorflow/03-word2vec/word2vec.py	/^  import matplotlib.pyplot as plt$/;"	kind:namespace	line:237
+matplotlib	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^import matplotlib.pyplot as plot$/;"	kind:namespace	line:3
+matplotlib	tensorflow/04-regression/01-linear-regresion.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:11
+matplotlib	tensorflow/04-regression/02-polynomial-regression.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:6
+matplotlib	tensorflow/04-regression/03-polynomial-hmm.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:11
+maybe_download	tensorflow/03-word2vec/word2vec.py	/^def maybe_download(filename, expected_bytes):$/;"	kind:function	line:34
+mergeArray	lynda/03-numpy/01-basics.py	/^mergeArray = np.hstack([firstArray, secondArray]);$/;"	kind:variable	line:30
+mergeArray	lynda/03-numpy/01-basics.py	/^mergeArray = np.vstack([firstArray,secondArray]);$/;"	kind:variable	line:32
+mnist	tensorflow/02-mnist/01-minst.py	/^mnist = input_data.read_data_sets('MNIST_data', one_hot=True)/;"	kind:variable	line:4
+mpl	lynda/03-numpy/01-basics.py	/^import matplotlib.pyplot as mpl$/;"	kind:namespace	line:2
+n_epochs	tensorflow/04-regression/02-polynomial-regression.py	/^n_epochs = 1000$/;"	kind:variable	line:48
+n_observations	tensorflow/04-regression/02-polynomial-regression.py	/^n_observations = 100$/;"	kind:variable	line:11
+n_samples	tensorflow/04-regression/01-linear-regresion.py	/^n_samples = train_X.shape[0]$/;"	kind:variable	line:25
+n_samples	tensorflow/04-regression/03-polynomial-hmm.py	/^n_samples = train_X.shape[0]$/;"	kind:variable	line:24
+nce_biases	tensorflow/03-word2vec/word2vec.py	/^    nce_biases = tf.Variable(tf.zeros([vocabulary_size]))$/;"	kind:variable	line:155
+nce_weights	tensorflow/03-word2vec/word2vec.py	/^    nce_weights = tf.Variable($/;"	kind:variable	line:152
+nearest	tensorflow/03-word2vec/word2vec.py	/^        nearest = (-sim[i, :]).argsort()[1:top_k+1]$/;"	kind:variable	line:210
+norm	tensorflow/03-word2vec/word2vec.py	/^  norm = tf.sqrt(tf.reduce_sum(tf.square(embeddings), 1, keep_dims=True))$/;"	kind:variable	line:168
+normalized_embeddings	tensorflow/03-word2vec/word2vec.py	/^  normalized_embeddings = embeddings \/ norm$/;"	kind:variable	line:169
+np	lynda/03-numpy/01-basics.py	/^import numpy as np $/;"	kind:namespace	line:1
+np	lynda/03-numpy/02-operations.py	/^import numpy as np $/;"	kind:namespace	line:1
+np	tensorflow/03-word2vec/word2vec.py	/^import numpy as np$/;"	kind:namespace	line:26
+np	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^import numpy as np $/;"	kind:namespace	line:2
+np	tensorflow/04-regression/02-polynomial-regression.py	/^import numpy as np$/;"	kind:namespace	line:4
+num_sampled	tensorflow/03-word2vec/word2vec.py	/^num_sampled = 64    # Number of negative examples to sample.$/;"	kind:variable	line:133
+num_skips	tensorflow/03-word2vec/word2vec.py	/^num_skips = 2         # How many times to reuse an input to generate a label.$/;"	kind:variable	line:125
+num_steps	tensorflow/03-word2vec/word2vec.py	/^num_steps = 100001$/;"	kind:variable	line:179
+numberVariable	udemy/basics/03-datatypes.py	/^numberVariable = 25$/;"	kind:variable	line:2
+numpy	lynda/01-intermediate/01-import.py	/^import numpy $/;"	kind:namespace	line:4
+numpy	tensorflow/04-regression/01-linear-regresion.py	/^import numpy$/;"	kind:namespace	line:10
+numpy	tensorflow/04-regression/03-polynomial-hmm.py	/^import numpy$/;"	kind:namespace	line:10
+numpy	youtube/01-regression/01-linearregression.py	/^import numpy as numpy$/;"	kind:namespace	line:5
+numpyFloatVariable	lynda/03-numpy/01-basics.py	/^numpyFloatVariable = np.array([1,2,3,4,5],dtype=np.float64)$/;"	kind:variable	line:8
+numpyMultiDimentionalVariable	lynda/03-numpy/01-basics.py	/^numpyMultiDimentionalVariable = np.array([[1,2,3,4,5],[1,2,3,4,5]],'d')$/;"	kind:variable	line:14
+numpyVariable	lynda/03-numpy/01-basics.py	/^numpyVariable = np.array([1,2,3,4,5])$/;"	kind:variable	line:5
+optimizer	tensorflow/03-word2vec/word2vec.py	/^  optimizer = tf.train.GradientDescentOptimizer(1.0).minimize(loss)$/;"	kind:variable	line:165
+optimizer	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)$/;"	kind:variable	line:34
+optimizer	tensorflow/04-regression/01-linear-regresion.py	/^optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)$/;"	kind:variable	line:41
+optimizer	tensorflow/04-regression/02-polynomial-regression.py	/^optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)$/;"	kind:variable	line:45
+optimizer	tensorflow/04-regression/03-polynomial-hmm.py	/^optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)$/;"	kind:variable	line:46
+os	tensorflow/03-word2vec/word2vec.py	/^import os$/;"	kind:namespace	line:22
+pandas	lynda/01-intermediate/01-import.py	/^import pandas$/;"	kind:namespace	line:6
+pandas	youtube/01-regression/01-linearregression.py	/^import pandas as pandas$/;"	kind:namespace	line:3
+plot	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^import matplotlib.pyplot as plot$/;"	kind:namespace	line:3
+plot_only	tensorflow/03-word2vec/word2vec.py	/^  plot_only = 500$/;"	kind:variable	line:240
+plot_with_labels	tensorflow/03-word2vec/word2vec.py	/^def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):$/;"	kind:function	line:220
+plt	tensorflow/03-word2vec/word2vec.py	/^  import matplotlib.pyplot as plt$/;"	kind:namespace	line:237
+plt	tensorflow/04-regression/01-linear-regresion.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:11
+plt	tensorflow/04-regression/02-polynomial-regression.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:6
+plt	tensorflow/04-regression/03-polynomial-hmm.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:11
+pp	lynda/03-numpy/02-operations.py	/^import matplotlib.pyplot as pp$/;"	kind:namespace	line:2
+pred	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^pred = tf.mul(X,W)$/;"	kind:variable	line:27
+pred	tensorflow/04-regression/01-linear-regresion.py	/^pred = tf.add(tf.mul(X, W), b)$/;"	kind:variable	line:36
+pred	tensorflow/04-regression/03-polynomial-hmm.py	/^pred = tf.add(tf.mul(Y1, W3), b3)$/;"	kind:variable	line:41
+predicted_weights	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^    predicted_weights = sess.run(W)$/;"	kind:variable	line:56
+preprocessing	youtube/01-regression/01-linearregression.py	/^from sklearn import preprocessing, cross_validation, svm$/;"	kind:namespace	line:7
+prev_training_cost	tensorflow/04-regression/02-polynomial-regression.py	/^        prev_training_cost = training_cost$/;"	kind:variable	line:74
+prev_training_cost	tensorflow/04-regression/02-polynomial-regression.py	/^    prev_training_cost = 0.0$/;"	kind:variable	line:55
+print_function	tensorflow/03-word2vec/word2vec.py	/^from __future__ import print_function$/;"	kind:namespace	line:18
+print_function	tensorflow/04-regression/01-linear-regresion.py	/^from __future__ import print_function$/;"	kind:namespace	line:7
+print_function	tensorflow/04-regression/03-polynomial-hmm.py	/^from __future__ import print_function$/;"	kind:namespace	line:7
+print_function	tflearn/01-regression.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:3
+pylint	tensorflow/03-word2vec/word2vec.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	kind:namespace	line:28
+quandl	youtube/01-regression/01-linearregression.py	/^import quandl$/;"	kind:namespace	line:2
+quandlKey	youtube/01-regression/01-linearregression.py	/^quandlKey = config.get("quandl", "key")$/;"	kind:variable	line:12
+random	tensorflow/03-word2vec/word2vec.py	/^import random$/;"	kind:namespace	line:23
+read_data	tensorflow/03-word2vec/word2vec.py	/^def read_data(filename):$/;"	kind:function	line:51
+redefined	tensorflow/03-word2vec/word2vec.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	kind:namespace	line:28
+regression	tflearn/01-regression.py	/^regression = tflearn.regression(linear, optimizer='sgd', loss='mean_square',$/;"	kind:variable	line:14
+rng	tensorflow/04-regression/01-linear-regresion.py	/^rng = numpy.random$/;"	kind:variable	line:12
+rng	tensorflow/04-regression/03-polynomial-hmm.py	/^rng = numpy.random$/;"	kind:variable	line:12
+seaborn	lynda/01-intermediate/01-import.py	/^import seaborn$/;"	kind:namespace	line:8
+secondArray	lynda/03-numpy/01-basics.py	/^secondArray = np.random.standard_normal((3,2))$/;"	kind:variable	line:28
+secondList	udemy/basics/04-operators.py	/^secondList = ["thirdValue","fourthValue"]$/;"	kind:variable	line:30
+secondVariable	tensorflow/01-basics/01-helloworld.py	/^secondVariable = tf.constant(5)$/;"	kind:variable	line:9
+secondVariable	udemy/basics/04-operators.py	/^secondVariable = "secondValue"$/;"	kind:variable	line:13
+secondVariable	udemy/basics/04-operators.py	/^secondVariable = 10$/;"	kind:variable	line:3
+sim	tensorflow/03-word2vec/word2vec.py	/^      sim = similarity.eval()$/;"	kind:variable	line:206
+similarity	tensorflow/03-word2vec/word2vec.py	/^  similarity = tf.matmul($/;"	kind:variable	line:172
+sinx	lynda/03-numpy/02-operations.py	/^sinx = np.sin(x)$/;"	kind:variable	line:5
+skip_window	tensorflow/03-word2vec/word2vec.py	/^skip_window = 1       # How many words to consider left and right.$/;"	kind:variable	line:124
+stddev	tensorflow/03-word2vec/word2vec.py	/^                            stddev=1.0 \/ math.sqrt(embedding_size)))$/;"	kind:variable	line:154
+stringVariable	udemy/basics/03-datatypes.py	/^stringVariable = "String Value";$/;"	kind:variable	line:6
+svm	youtube/01-regression/01-linearregression.py	/^from sklearn import preprocessing, cross_validation, svm$/;"	kind:namespace	line:7
+svnModel	youtube/01-regression/01-linearregression.py	/^svnModel = svm.SVR()$/;"	kind:variable	line:63
+svnModel	youtube/01-regression/01-linearregression.py	/^svnModel = svm.SVR(kernel='poly')$/;"	kind:variable	line:70
+test_X	tensorflow/04-regression/01-linear-regresion.py	/^    test_X = numpy.asarray([6.83, 4.668, 8.9, 7.91, 5.7, 8.7, 3.1, 2.1])$/;"	kind:variable	line:72
+test_Y	tensorflow/04-regression/01-linear-regresion.py	/^    test_Y = numpy.asarray([1.84, 2.273, 3.2, 2.831, 2.92, 3.24, 1.35, 1.03])$/;"	kind:variable	line:73
+testing_cost	tensorflow/04-regression/01-linear-regresion.py	/^    testing_cost = sess.run($/;"	kind:variable	line:76
+tf	tensorflow/01-basics/01-helloworld.py	/^import tensorflow as tf $/;"	kind:namespace	line:2
+tf	tensorflow/02-mnist/01-minst.py	/^import tensorflow as tf $/;"	kind:namespace	line:1
+tf	tensorflow/03-word2vec/word2vec.py	/^import tensorflow as tf$/;"	kind:namespace	line:29
+tf	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^import tensorflow as tf $/;"	kind:namespace	line:1
+tf	tensorflow/04-regression/01-linear-regresion.py	/^import tensorflow as tf$/;"	kind:namespace	line:9
+tf	tensorflow/04-regression/02-polynomial-regression.py	/^import tensorflow as tf$/;"	kind:namespace	line:5
+tf	tensorflow/04-regression/03-polynomial-hmm.py	/^import tensorflow as tf$/;"	kind:namespace	line:9
+tflearn	tflearn/01-regression.py	/^import tflearn$/;"	kind:namespace	line:5
+thirdList	udemy/basics/04-operators.py	/^thirdList = firstList + secondList$/;"	kind:variable	line:31
+thirdVariable	udemy/basics/04-operators.py	/^thirdVariable = firstVariable + " " + secondVariable$/;"	kind:variable	line:14
+thirdVariable	udemy/basics/04-operators.py	/^thirdVariable = firstVariable + secondVariable;$/;"	kind:variable	line:4
+top_k	tensorflow/03-word2vec/word2vec.py	/^        top_k = 8 # number of nearest neighbors$/;"	kind:variable	line:209
+total_epoch	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^total_epoch = 100$/;"	kind:variable	line:8
+train_X	tensorflow/04-regression/01-linear-regresion.py	/^train_X = numpy.asarray([3.3,4.4,5.5,6.71,6.93,4.168,9.779,6.182,7.59,2.167,$/;"	kind:variable	line:20
+train_X	tensorflow/04-regression/03-polynomial-hmm.py	/^train_X = numpy.asarray([3.3,4.4,5.5,6.71,6.93,4.168,9.779,6.182,7.59,2.167,$/;"	kind:variable	line:20
+train_Y	tensorflow/04-regression/01-linear-regresion.py	/^train_Y = numpy.asarray([1.7,2.76,2.09,3.19,1.694,1.573,3.366,2.596,2.53,1.221,$/;"	kind:variable	line:22
+train_Y	tensorflow/04-regression/03-polynomial-hmm.py	/^train_Y = numpy.asarray([1.7,2.76,2.09,3.19,1.694,1.573,3.366,2.596,2.53,1.221,$/;"	kind:variable	line:22
+train_inputs	tensorflow/03-word2vec/word2vec.py	/^  train_inputs = tf.placeholder(tf.int32, shape=[batch_size])$/;"	kind:variable	line:140
+train_labels	tensorflow/03-word2vec/word2vec.py	/^  train_labels = tf.placeholder(tf.int32, shape=[batch_size, 1])$/;"	kind:variable	line:141
+training_X	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^training_X =  range(1,training_sample_count)$/;"	kind:variable	line:13
+training_Y	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^training_Y =  [ ((value*5) + np.random.random()*value) for value in training_X]$/;"	kind:variable	line:14
+training_cost	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^        training_cost = sess.run(cost, feed_dict={X: training_X, Y:training_Y})$/;"	kind:variable	line:49
+training_cost	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^    training_cost = sess.run(cost, feed_dict={X: training_X, Y: training_Y})$/;"	kind:variable	line:54
+training_cost	tensorflow/04-regression/01-linear-regresion.py	/^    training_cost = sess.run(cost, feed_dict={X: train_X, Y: train_Y})$/;"	kind:variable	line:62
+training_cost	tensorflow/04-regression/02-polynomial-regression.py	/^        training_cost = sess.run($/;"	kind:variable	line:60
+training_cost	tensorflow/04-regression/03-polynomial-hmm.py	/^    training_cost = sess.run(cost, feed_dict={X: train_X, Y: train_Y})$/;"	kind:variable	line:67
+training_epochs	tensorflow/04-regression/01-linear-regresion.py	/^training_epochs = 1000$/;"	kind:variable	line:16
+training_epochs	tensorflow/04-regression/03-polynomial-hmm.py	/^training_epochs = 1000$/;"	kind:variable	line:16
+training_sample_count	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^training_sample_count = 100$/;"	kind:variable	line:5
+tsne	tensorflow/03-word2vec/word2vec.py	/^  tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)$/;"	kind:variable	line:239
+tupleValue	udemy/basics/04-operators.py	/^tupleValue = ("fourthValue","fifthValue","sixthValue")$/;"	kind:variable	line:57
+tupleValue	udemy/basics/04-operators.py	/^tupleValue = ("oneValue","twoValue","threeValue")$/;"	kind:variable	line:55
+tupleVariable	udemy/basics/03-datatypes.py	/^tupleVariable = ("oneValue","twoValue","threeValue")$/;"	kind:variable	line:18
+tupleVariable	udemy/basics/06-loops.py	/^tupleVariable = ("oneConstant","twoConstant","threeConstant")$/;"	kind:variable	line:9
+uniqWords	lynda/02-textanalysis/anagrams.py	/^uniqWords = list(set(convertedWords))$/;"	kind:variable	line:7
+uniqWords	lynda/02-textanalysis/anagrams.py	/^uniqWords = sorted(list(set([key.strip().lower() for key in open("data\/words")])))$/;"	kind:variable	line:13
+uniqWords	lynda/02-textanalysis/anagrams.py	/^uniqWords = sorted(list(set([key.strip().lower() for key in open("data\/words")])))$/;"	kind:variable	line:18
+url	tensorflow/03-word2vec/word2vec.py	/^url = 'http:\/\/mattmahoney.net\/dc\/'$/;"	kind:variable	line:32
+urllib	tensorflow/03-word2vec/word2vec.py	/^from six.moves import urllib$/;"	kind:namespace	line:27
+valid_dataset	tensorflow/03-word2vec/word2vec.py	/^  valid_dataset = tf.constant(valid_examples, dtype=tf.int32)$/;"	kind:variable	line:142
+valid_embeddings	tensorflow/03-word2vec/word2vec.py	/^  valid_embeddings = tf.nn.embedding_lookup($/;"	kind:variable	line:170
+valid_examples	tensorflow/03-word2vec/word2vec.py	/^valid_examples = np.random.choice(valid_window, valid_size, replace=False)$/;"	kind:variable	line:132
+valid_size	tensorflow/03-word2vec/word2vec.py	/^valid_size = 16     # Random set of words to evaluate similarity on.$/;"	kind:variable	line:130
+valid_window	tensorflow/03-word2vec/word2vec.py	/^valid_window = 100  # Only pick dev samples in the head of the distribution.$/;"	kind:variable	line:131
+valid_word	tensorflow/03-word2vec/word2vec.py	/^        valid_word = reverse_dictionary[valid_examples[i]]$/;"	kind:variable	line:208
+variableName	udemy/basics/02-variables.py	/^variableName = "variable Value Changed"$/;"	kind:variable	line:5
+variableName	udemy/basics/02-variables.py	/^variableName = "variable Value"  #variable dfined with value$/;"	kind:variable	line:3
+vocabulary_size	tensorflow/03-word2vec/word2vec.py	/^vocabulary_size = 50000$/;"	kind:variable	line:61
+weight_X	tensorflow/04-regression/01-linear-regresion-one-variable-without-bais.py	/^weight_X = np.ndarray((total_epoch,),float)$/;"	kind:variable	line:39
+word2vec.py	tensorflow/03-word2vec/word2vec.py	1;"	kind:file	line:1
+words	lynda/02-textanalysis/anagrams.py	/^words = wordsFile.readlines();$/;"	kind:variable	line:2
+words	tensorflow/03-word2vec/word2vec.py	/^words = read_data(filename)$/;"	kind:variable	line:57
+wordsFile	lynda/02-textanalysis/anagrams.py	/^wordsFile = open('data\/words','r')$/;"	kind:variable	line:1
+x	lynda/03-numpy/02-operations.py	/^x = np.linspace(0,10,50)$/;"	kind:variable	line:4
+xrange	tensorflow/03-word2vec/word2vec.py	/^from six.moves import xrange  # pylint: disable=redefined-builtin$/;"	kind:namespace	line:28
+xs	tensorflow/04-regression/02-polynomial-regression.py	/^xs = np.linspace(-3, 3, n_observations)$/;"	kind:variable	line:13
+ys	tensorflow/04-regression/02-polynomial-regression.py	/^ys = np.sin(xs) + np.random.uniform(-0.5, 0.5, n_observations)$/;"	kind:variable	line:14
+zipfile	tensorflow/03-word2vec/word2vec.py	/^import zipfile$/;"	kind:namespace	line:24
